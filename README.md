@@ -1,8 +1,8 @@
 # Illustrations to Explain Things
 
 > Turn judgments, flows, states, and metaphors from an article into memorable white-background hand-drawn explainer illustrations.
->
-> 16:9 landscape | Xiaohei character | pure white hand-drawn line art | sparse red/orange/blue handwritten labels | agent skill
+
+![Hand-drawn hero illustration showing Xiaohei turning an article into a visual metaphor with English labels](assets/hero-illustration.svg)
 
 ---
 
@@ -15,6 +15,31 @@ This is not a generic illustration prompt pack and not a PPT infographic templat
 The default recurring character is **Xiaohei**: a small solid-black figure with white dot eyes, tiny legs, and a blank serious expression. Xiaohei is not a mascot or decoration. Xiaohei should be doing the strange work that makes the system make sense.
 
 This adaptation defaults to **English response text and English handwritten labels** unless the user explicitly asks for another language.
+
+---
+
+## Installation
+
+### As a skill
+
+```bash
+npx skills add https://github.com/diegopetrucci/illustrations-to-explain-things --skill illustrations-to-explain-things
+```
+
+### As a Claude Code plugin
+
+```shell
+/plugin marketplace add diegopetrucci/ai-agents-skills
+/plugin install illustrations-to-explain-things@diegopetrucci-claude-plugins
+```
+
+### As a Codex plugin
+
+```shell
+codex plugin marketplace add diegopetrucci/ai-agents-skills
+```
+
+Restart Codex, then install `illustrations-to-explain-things` from the "Diego Petrucci Agent Skills" marketplace in the plugin directory.
 
 ---
 
@@ -108,31 +133,6 @@ These images are preserved from Ian's original repository as style-calibration s
 
 ---
 
-## Installation
-
-### As a skill
-
-```bash
-npx skills add https://github.com/diegopetrucci/illustrations-to-explain-things --skill illustrations-to-explain-things
-```
-
-Then use it in your agent:
-
-```text
-Use $illustrations-to-explain-things to plan and generate 5 article illustrations for this draft. Default to English labels.
-```
-
-### Local development checkout
-
-```bash
-git clone https://github.com/diegopetrucci/illustrations-to-explain-things.git
-cd illustrations-to-explain-things
-```
-
-This repository also includes `.claude-plugin/plugin.json` and `.codex-plugin/plugin.json` so it can be packaged by plugin-compatible marketplaces.
-
----
-
 ## Usage
 
 ### Illustration planning only
@@ -208,6 +208,7 @@ The skill follows this flow:
 ├── LICENSE
 ├── NOTICE.md
 ├── assets/
+│   ├── hero-illustration.svg
 │   └── ian-wechat-qr.jpg
 ├── examples/
 │   ├── images/

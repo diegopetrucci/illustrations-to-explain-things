@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Illustrations to Explain Things hero illustration</title>
+  <desc id="desc">A white-background hand-drawn scene showing Xiaohei turning an article into a visual metaphor with English labels.</desc>
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <g fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 255 C240 235, 370 238, 430 255 C447 310, 446 442, 430 492 C360 508, 244 510, 186 492 C172 426, 172 321, 190 255 Z"/>
+    <path d="M210 282 C254 269, 352 270, 392 282"/>
+    <path d="M218 326 C272 314, 352 315, 402 326"/>
+    <path d="M212 370 C266 360, 346 361, 394 372"/>
+    <path d="M208 414 C262 404, 334 404, 388 414"/>
+
+    <path d="M455 366 C520 348, 575 350, 630 362"/>
+    <path d="M592 336 C613 349, 628 366, 640 389"/>
+    <path d="M593 389 C615 376, 631 362, 647 344"/>
+
+    <path d="M705 305 C760 263, 868 258, 932 298 C979 334, 1005 408, 993 482 C983 552, 938 605, 871 628 C798 651, 722 637, 680 588 C636 536, 625 443, 649 368 Z"/>
+    <path d="M750 307 C760 362, 762 478, 748 546"/>
+    <path d="M824 286 C838 360, 838 510, 820 583"/>
+    <path d="M895 304 C908 374, 906 492, 892 560"/>
+    <path d="M701 454 C758 444, 884 444, 952 454"/>
+    <path d="M699 510 C752 500, 878 500, 948 512"/>
+    <path d="M647 381 C605 365, 563 366, 532 388 C507 406, 492 438, 493 472 C494 523, 527 558, 575 566"/>
+    <path d="M527 388 C538 420, 541 455, 534 492"/>
+    <path d="M516 450 C544 446, 569 450, 592 465"/>
+
+    <path d="M1014 444 C1072 433, 1134 437, 1198 452"/>
+    <path d="M1161 421 C1186 435, 1208 455, 1227 481"/>
+    <path d="M1160 476 C1188 464, 1210 447, 1233 424"/>
+
+    <path d="M1236 250 C1304 238, 1393 239, 1465 253 C1480 332, 1480 470, 1460 556 C1385 571, 1302 570, 1235 556 C1216 478, 1218 330, 1236 250 Z"/>
+    <path d="M1270 476 C1305 415, 1392 415, 1426 476"/>
+    <path d="M1281 476 C1299 517, 1401 518, 1418 476"/>
+    <path d="M1306 475 C1316 438, 1336 415, 1350 392"/>
+    <path d="M1392 476 C1385 441, 1368 414, 1350 392"/>
+
+    <path d="M1108 636 C1162 625, 1250 625, 1312 639"/>
+    <path d="M1188 666 C1227 649, 1264 648, 1300 662"/>
+  </g>
+
+  <g fill="#111111" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="568" cy="600" rx="52" ry="66"/>
+    <circle cx="548" cy="588" r="6" fill="#ffffff" stroke="none"/>
+    <circle cx="584" cy="588" r="6" fill="#ffffff" stroke="none"/>
+    <path d="M529 650 C512 684, 496 712, 490 744" fill="none"/>
+    <path d="M603 650 C621 684, 639 712, 648 744" fill="none"/>
+    <path d="M521 619 C482 620, 454 628, 430 646" fill="none"/>
+    <path d="M618 616 C650 608, 675 606, 704 613" fill="none"/>
+  </g>
+
+  <g font-family="Comic Sans MS, Chalkboard SE, Bradley Hand, cursive" font-size="44" font-weight="600">
+    <text x="238" y="224" fill="#d94841">article</text>
+    <text x="748" y="246" fill="#e48c2a">core idea</text>
+    <text x="1272" y="218" fill="#3b82f6">hero image</text>
+    <text x="1098" y="618" fill="#d94841">visual metaphor</text>
+    <text x="430" y="700" fill="#3b82f6">draw one idea</text>
+    <text x="502" y="786" fill="#e48c2a">Xiaohei at work</text>
+  </g>
+</svg>
