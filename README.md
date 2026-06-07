@@ -110,25 +110,26 @@ These images are preserved from Ian's original repository as style-calibration s
 
 ## Installation
 
-Clone the repository:
+### As a skill
+
+```bash
+npx skills add https://github.com/diegopetrucci/illustrations-to-explain-things --skill illustrations-to-explain-things
+```
+
+Then use it in your agent:
+
+```text
+Use $illustrations-to-explain-things to plan and generate 5 article illustrations for this draft. Default to English labels.
+```
+
+### Local development checkout
 
 ```bash
 git clone https://github.com/diegopetrucci/illustrations-to-explain-things.git
 cd illustrations-to-explain-things
 ```
 
-Copy the skill into your Codex skills directory:
-
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R ./illustrations-to-explain-things "${CODEX_HOME:-$HOME/.codex}/skills/"
-```
-
-Then use it in Codex:
-
-```text
-Use $illustrations-to-explain-things to plan and generate 5 article illustrations for this draft. Default to English labels.
-```
+This repository also includes `.claude-plugin/plugin.json` and `.codex-plugin/plugin.json` so it can be packaged by plugin-compatible marketplaces.
 
 ---
 
@@ -199,6 +200,10 @@ The skill follows this flow:
 
 ```text
 .
+├── .claude-plugin/
+│   └── plugin.json
+├── .codex-plugin/
+│   └── plugin.json
 ├── README.md
 ├── LICENSE
 ├── NOTICE.md
@@ -210,27 +215,28 @@ The skill follows this flow:
 │   │   ├── 02-sort-by-purpose.png
 │   │   └── ...
 │   └── prompts.md
-└── illustrations-to-explain-things/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── assets/
-    │   └── examples/
-    └── references/
-        ├── style-dna.md
-        ├── xiaohei-ip.md
-        ├── composition-patterns.md
-        ├── prompt-template.md
-        └── qa-checklist.md
+└── skills/
+    └── illustrations-to-explain-things/
+        ├── SKILL.md
+        ├── agents/
+        │   └── openai.yaml
+        ├── assets/
+        │   └── examples/
+        └── references/
+            ├── style-dna.md
+            ├── xiaohei-ip.md
+            ├── composition-patterns.md
+            ├── prompt-template.md
+            └── qa-checklist.md
 ```
 
-The directory you actually install as a skill is:
+The installable skill lives at:
 
 ```text
-illustrations-to-explain-things/
+skills/illustrations-to-explain-things/
 ```
 
-The root README, LICENSE, NOTICE, and examples are for GitHub-facing documentation.
+The root README, LICENSE, NOTICE, and examples remain GitHub-facing documentation and attribution material.
 
 ---
 

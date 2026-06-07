@@ -1,0 +1,5 @@
+{
+  "name": "illustrations-to-explain-things",
+  "description": "Create clean, absurd article illustrations with Xiaohei. Default output language: English unless the user explicitly requests another language.",
+  "version": "1.0.0"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "illustrations-to-explain-things",
+  "version": "1.0.0",
+  "description": "Create clean, absurd article illustrations with Xiaohei, defaulting response text and handwritten labels to English.",
+  "author": {
+    "name": "Diego Petrucci",
+    "url": "https://github.com/diegopetrucci"
+  },
+  "repository": "https://github.com/diegopetrucci/illustrations-to-explain-things",
+  "license": "MIT",
+  "keywords": ["illustration", "image-generation", "xiaohei", "content-creation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Illustrations to Explain Things",
+    "shortDescription": "Plan and generate Xiaohei explainer illustrations",
+    "longDescription": "Turn article ideas, workflows, states, and metaphors into clean hand-drawn Xiaohei illustrations with English output by default.",
+    "developerName": "Diego Petrucci",
+    "category": "Content Creation",
+    "capabilities": ["Read", "Write"]
+  }
+}
