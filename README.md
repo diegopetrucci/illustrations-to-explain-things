@@ -2,7 +2,7 @@
 
 > Turn judgments, flows, states, and metaphors from an article into memorable white-background hand-drawn explainer illustrations.
 
-![Hand-drawn hero illustration showing Xiaohei turning an article into a visual metaphor with English labels](assets/hero-illustration.svg)
+![Hand-drawn hero illustration showing Xiaohei weaving source text into a visual metaphor with English labels](assets/hero-illustration.png)
 
 ---
 
@@ -208,8 +208,7 @@ The skill follows this flow:
 ├── LICENSE
 ├── NOTICE.md
 ├── assets/
-│   ├── hero-illustration.svg
-│   └── ian-wechat-qr.jpg
+│   └── hero-illustration.png
 ├── examples/
 │   ├── images/
 │   │   ├── 01-two-breakpoints.png
@@ -254,26 +253,7 @@ The root README, LICENSE, NOTICE, and examples remain GitHub-facing documentatio
 
 ## Attribution and source material
 
-This repository is an independent repository, not a fork. It was adapted from Ian's original source repository:
-
-- Original repo: <https://github.com/helloianneo/ian-xiaohei-illustrations>
-- Original author: Ian
-- License: MIT, preserved in [LICENSE](LICENSE)
-- Attribution notice: preserved and expanded in [NOTICE.md](NOTICE.md)
-
-Bundled example images remain Ian's original calibration samples and are kept here with attribution.
-
-Related Ian projects:
-
-- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt)
-- [Awesome Claude Code Skills](https://github.com/helloianneo/awesome-claude-code-skills)
-- [Obsidian + Claude AI Second Brain](https://github.com/helloianneo/obsidian-ai-second-brain)
-
-Author links:
-
-- GitHub: [helloianneo](https://github.com/helloianneo)
-- Website: [www.ianneo.xyz](https://www.ianneo.xyz)
-- X/Twitter: [@ianneo_ai](https://x.com/ianneo_ai)
+This repository was adapted from [Ian's original source](https://github.com/helloianneo/ian-xiaohei-illustrations).
 
 ---
 
