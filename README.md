@@ -129,7 +129,7 @@ The default style stays close to Ian's original Xiaohei article-illustration lan
 
 ![Trust Bridge](examples/images/08-trust-bridge.png)
 
-These images are preserved from Ian's original repository as style-calibration samples. They still contain the original handwritten Chinese annotations. In this English adaptation, newly generated outputs should default to English unless the user asks for another language.
+These regenerated English examples are included as style-calibration samples for line density, whitespace, color restraint, and Xiaohei participation. They are inspired by Ian's original visual language, but should not be copied as fixed compositions.
 
 ---
 
